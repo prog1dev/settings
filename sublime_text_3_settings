@@ -1,0 +1,26 @@
+{
+  "auto_complete": true,
+  "auto_complete_commit_on_tab": true,
+  "bold_folder_labels": true,
+  "caret_style": "phase",
+  "color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+  "copy_with_empty_selection": true,
+  "ensure_newline_at_eof_on_save": true,
+  "fallback_encoding": "UTF-8",
+  "font_size": 12,
+  "highlight_modified_tabs": true,
+  "ignored_packages":
+  [
+    "SublimeLinter-rubocop",
+    "Vintage"
+  ],
+  "index_files": true,
+  "ruby_path": "/home/user/.rbenv/versions/2.1.5/bin/ruby",
+  "rubyubocop_path": "/home/user/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/rubocop-0.48.1",
+  "sidebar_small": true,
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "trim_automatic_white_space": true,
+  "trim_trailing_white_space_on_save": true,
+  "word_separators": "./\\()\"'-:,.;<>~@#$%^&*|+=[]{}`~"
+}
