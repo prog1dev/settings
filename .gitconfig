@@ -1,0 +1,12 @@
+[color]
+	ui = true
+[user]
+	name = ivan.filenko
+	email = ivan.filenko@protonmail.com
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	last = log -1 HEAD
+	cm = commit
