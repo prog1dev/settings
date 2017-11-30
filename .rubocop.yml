@@ -1,0 +1,47 @@
+---
+AllCops:
+  DisplayCopNames:    true
+  DisplayStyleGuide:  true
+  StyleGuideCopsOnly: true
+  TargetRubyVersion:  2.1.5
+  Exclude:
+    - spec/dummy/db/schema.rb
+
+Metrics/ParameterLists:
+  Max: 5
+
+Metrics/LineLength:
+  Max: 120
+
+Style/Alias:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  EnforcedStyle: compact
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/ModuleFunction:
+  Enabled: false
+
+Style/StringLiterals:
+  EnforcedStyle: single_quotes
+
+Style/StringLiteralsInInterpolation:
+  EnforcedStyle: double_quotes
+
+Style/SymbolArray:
+  EnforcedStyle: brackets
+
+Style/WordArray:
+  EnforcedStyle: brackets
+
+Naming/FileName:
+  Enabled: false
+
+Bundler/OrderedGems:
+  TreatCommentsAsGroupSeparators: false
+
+Gemspec/OrderedDependencies:
+  TreatCommentsAsGroupSeparators: false
