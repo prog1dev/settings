@@ -37,7 +37,16 @@ Style/SymbolArray:
 Style/WordArray:
   EnforcedStyle: brackets
 
+Style/AsciiComments:
+  Enabled: false
+
 Naming/FileName:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+Metrics/ParameterLists:
   Enabled: false
 
 Bundler/OrderedGems:
