@@ -3,9 +3,6 @@ AllCops:
   DisplayCopNames:    true
   DisplayStyleGuide:  true
   StyleGuideCopsOnly: true
-  TargetRubyVersion:  2.1.5
-  Exclude:
-    - spec/dummy/db/schema.rb
 
 Metrics/ParameterLists:
   Max: 5
@@ -44,9 +41,6 @@ Naming/FileName:
   Enabled: false
 
 Metrics/MethodLength:
-  Enabled: false
-
-Metrics/ParameterLists:
   Enabled: false
 
 Bundler/OrderedGems:
