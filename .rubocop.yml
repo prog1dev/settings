@@ -37,8 +37,8 @@ Style/WordArray:
 Style/AsciiComments:
   Enabled: false
 
-Naming/FileName:
-  Enabled: false
+# Naming/FileName:
+#   Enabled: false
 
 Metrics/MethodLength:
   Enabled: false
@@ -46,5 +46,14 @@ Metrics/MethodLength:
 Bundler/OrderedGems:
   TreatCommentsAsGroupSeparators: false
 
-Gemspec/OrderedDependencies:
-  TreatCommentsAsGroupSeparators: false
+Style/NumericPredicate:
+  EnforcedStyle: comparison
+
+# Gemspec/OrderedDependencies:
+#   TreatCommentsAsGroupSeparators: false
+
+Style/Proc:
+  Enabled: false
+
+Style/Lambda:
+  Enabled: false
