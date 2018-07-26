@@ -1,4 +1,5 @@
 export ZSH=$HOME/.oh-my-zsh
+export GIT_EDITOR=vim
 
 source $HOME/.bash_aliases
 
